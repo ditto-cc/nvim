@@ -1,1 +1,1 @@
-# nvim configuration
+# ditto-cc's nvim configuration
