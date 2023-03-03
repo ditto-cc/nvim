@@ -3,7 +3,12 @@ require("mason").setup {}
 local mason_lspconfig = require("mason-lspconfig")
 
 mason_lspconfig.setup {
-  ensure_installed = { "lua_ls", "gopls", "cmake", "clangd" },
+  ensure_installed = {
+    "lua_ls",
+    "gopls",
+    "cmake",
+    "clangd",
+  },
 }
 
 local on_attach = function(client, bufnr)
