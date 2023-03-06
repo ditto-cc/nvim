@@ -8,6 +8,7 @@ mason_lspconfig.setup {
     "gopls",
     "cmake",
     "clangd",
+    "python-lsp-server",
   },
 }
 
@@ -99,3 +100,5 @@ require 'lspconfig'.lua_ls.setup {
     flags = lsp_flags,
   },
 }
+
+require("lspconfig").pylsp.setup {}

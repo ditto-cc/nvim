@@ -1,4 +1,3 @@
-
 -- 基础配置项
 require('basic')
 -- 快捷键
@@ -19,8 +18,11 @@ require('plugin-config.telescope')
 require('plugin-config.project')
 require('plugin-config.nvim-treesitter')
 require('plugin-config.indent-blankline')
+require('plugin-config.nvim-autopairs')
 
 -- lsp
 require('lsp.setup')
 require('lsp.cmp')
 require('lsp.ui')
+
+require("golang")
